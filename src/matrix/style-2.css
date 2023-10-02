@@ -1,2 +1,6 @@
 body{background:#000;}
 .letra{position:absolute; color:#090; text-align:center;}
+
+h1{
+    color: wheat;
+}
