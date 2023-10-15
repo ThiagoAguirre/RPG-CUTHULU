@@ -1,19 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
     const textContainer = document.querySelector('.text-container');
     const textElement = document.getElementById('text');
-    const text = ">> PORNOHUB É O MELHOR GOSTO DE MULHER D+++++++++++";
+    const text = "  >> PRECISO DE AJUDA MEU NOME É TOBIAS HENRIQUE CAIO CODINOME ARROZ DA MAMAE ESPERO QUE RECEBAM MEU PENDRIVE PRECISO DA AJUDA DO GRUPO OS INTOCÁVEIS";
     
-    textElement.textContent = ''; // Limpa o conteúdo do elemento
+    textElement.textContent = ''; 
     
-    // Função para mostrar o texto letra por letra
     function showTextLetterByLetter(index) {
         if (index < text.length) {
             textElement.textContent += text[index];
-            textContainer.style.opacity = '1'; // Mostra o texto gradualmente
+            textContainer.style.opacity = '1'; 
             index++;
-            setTimeout(() => showTextLetterByLetter(index), 100); // Delay de 100ms entre as letras
+            setTimeout(() => showTextLetterByLetter(index), 150);
         }
     }
-    
-    showTextLetterByLetter(0); // Inicia o processo de exibir letra por letra
+    showTextLetterByLetter(0); 
 });

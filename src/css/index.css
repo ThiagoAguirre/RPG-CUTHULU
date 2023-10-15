@@ -94,6 +94,11 @@ body{
     font-weight: 600;
 }
 
+.btn:hover{
+    color: red;
+    background-color: black;
+}
+
 .wapper .registe-link{
     font-size: 14.5px;
     text-align: center;
@@ -108,3 +113,4 @@ body{
 .registe-link p a:hover{
     text-decoration: underline;
 }
+
